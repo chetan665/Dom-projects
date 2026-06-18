@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+button {
+  margin-top: 50px;
+  width: 80px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: cadetblue;
+}
+
+button:hover {
+  background-color: rgb(15, 210, 216);
+  cursor: pointer;
+}
